@@ -7,7 +7,7 @@ export default function Registro() {
   const [LibroEditar, setLibroEditar] = useState(null);
   return (
     <div>
-      <h2>Registrar o editar libro</h2>
+      <h2>Registrar libro</h2>
       <FormularioLibro
         LibroEditar={LibroEditar}
         limpiarEdicion={() => setLibroEditar(null)}
