@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  background-color: #1c2733;
+  padding: 14px 0;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.45);
+  margin-bottom: 18px;
+  border-radius: 0 0 10px 10px;
+}
+
+.link {
+  color: #8db1ff;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 6px 18px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  user-select: none;
+}
+
+.link:hover {
+  background-color: #405c82;
+  color: #e3ebff;
+}

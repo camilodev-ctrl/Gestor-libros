@@ -1,0 +1,49 @@
+/* src/components/ListaLibros.module.css */
+.librosList {
+  max-width: 400px;
+  margin: 0 auto 48px auto;
+  background-color: #22303c;
+  border-radius: 12px;
+  padding: 16px 12px;
+  box-shadow: 0 5px 17px rgb(13 30 43 / 0.7);
+  min-height: 120px;
+}
+
+.libroItem {
+  background-color: #2f4455;
+  margin-bottom: 10px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  color: #c6d0df;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, box-shadow 0.25s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.libroItem:hover {
+  background-color: #4571a7;
+  box-shadow: 0 0 8px #74a0f2cc;
+  color: #fff;
+}
+
+.libroTitulo {
+  flex: 1;
+}
+
+.libroAutor {
+  font-weight: 400;
+  color: #a3b1cc;
+  font-style: italic;
+}
+
+.vacio {
+  color: #7a8a9e;
+  text-align: center;
+  padding: 40px 10px;
+  font-style: italic;
+  user-select: none;
+}

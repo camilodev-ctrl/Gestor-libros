@@ -4,13 +4,12 @@ import Registro from "./pages/Registro";
 import Libros from "./pages/Libros";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <BrowserRouter>
-      <Navbar />
+      <NavBar />
       <Routes>
         <Route path="/registro" element={<Registro />} />
+        <Route path="/libros" element={<Libros />} />
       </Routes>
     </BrowserRouter>
   );
